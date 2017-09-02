@@ -11,7 +11,7 @@ RUN npm install -g hexo-cli
 COPY . /app
 RUN npm install
 
-RUN hexo g -d
+RUN hexo g
 
 ### STAGE 2: Setup ###
 
