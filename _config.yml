@@ -77,6 +77,4 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repository:https://github.com/tranren/robinblog.git
-  branch:master
+  type:
