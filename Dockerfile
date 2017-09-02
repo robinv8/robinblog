@@ -8,10 +8,8 @@ RUN npm config set user 0
 RUN npm config set unsafe-perm true
 RUN npm install -g hexo-cli
 
-COPY ./package.json /app
-RUN npm install
-
 COPY . /app
+RUN npm install
 
 RUN hexo g -d
 
