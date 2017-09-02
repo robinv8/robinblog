@@ -3,15 +3,15 @@
 # We label our stage as 'builder'
 FROM node:8-alpine as builder
 
-WORKDIR /root/robinblog
+WORKDIR /app
 RUN npm config set user 0
 RUN npm config set unsafe-perm true
 RUN npm install -g hexo-cli
 
-COPY ./package.json /root/robinblog
+COPY ./package.json /app
 RUN npm install
 
-COPY . /root/robinblog
+COPY . /app
 
 RUN hexo g -d
 
@@ -26,6 +26,6 @@ FROM nginx:1.13.3-alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 ## From 'builder' stage copy over the artifacts in dist folder to default nginx public folder
-COPY --from=builder /root/robinblog/public /usr/share/nginx/html
+COPY --from=builder /app/public /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
