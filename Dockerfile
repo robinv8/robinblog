@@ -4,7 +4,8 @@
 FROM node:8-alpine as builder
 
 WORKDIR /root/robinblog
-RUN npm install -g hexo-util
+RUN npm config set user 0
+RUN npm config set unsafe-perm true
 RUN npm install -g hexo-cli
 
 COPY ./package.json /root/robinblog
