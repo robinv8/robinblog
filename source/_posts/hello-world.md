@@ -1,38 +1,7 @@
 ---
-title: 任裕斌
+title: 新起点
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;做开发也有三年了，从代码小白到今天一直是顺风顺水，今年6月份转战来到西安，自己天真的以为在这里可以大刀阔斧的大干一番，没想到坎坷才刚刚开始。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;面试了好多家都被没能通过，理论基础差导致要么公司开的薪水达不到自己的要求，要么直接没音讯，这让我郁闷了好几天，自己在那琢磨在上家公司的时候，既能开发web，又能开发app,对于新技术也能迅速上手，怎么就差的连工作都找不上，真的是说不出的失落……
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个成功的男人背后都有一个伟大的女人这句话说的一点都没错，反正我是信了。我们家灰灰在我郁闷的那几天就一直开导我。确实是有舍必有得，有高峰就有低谷，现在我需要的是补充我的基础知识，在基础知识中挖掘编程的核心思想，是时候该重新学习！真正的学习！领悟技术！接纳技术！
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这里感谢，那些拒绝我的面试官，给了我重新认识自己的机会。感谢我们家灰灰，在我最无助的时候支持我、鼓励我。
