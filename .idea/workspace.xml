@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update theme/_config.yml">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/icarus" afterPath="$PROJECT_DIR$/themes/icarus" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="330">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -187,8 +188,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1353" />
-    <option name="y" value="73" />
+    <option name="x" value="1119" />
+    <option name="y" value="71" />
     <option name="width" value="1288" />
     <option name="height" value="846" />
   </component>
@@ -298,7 +299,7 @@
       <updated>1504351680983</updated>
       <workItem from="1504351682356" duration="16405000" />
       <workItem from="1504436843438" duration="11464000" />
-      <workItem from="1504449516364" duration="5486000" />
+      <workItem from="1504449516364" duration="5624000" />
     </task>
     <task id="LOCAL-00001" summary="add dockerfile">
       <created>1504355028931</created>
@@ -479,10 +480,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33355000" />
+    <option name="totallyTimeSpent" value="33493000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1353" y="73" width="1288" height="846" extended-state="0" />
+    <frame x="1119" y="71" width="1288" height="846" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3317346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -884,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
