@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="Modify the bug">
+    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="article.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="209">
+              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -377,7 +377,7 @@
       <workItem from="1504351682356" duration="16405000" />
       <workItem from="1504436843438" duration="11464000" />
       <workItem from="1504449516364" duration="5666000" />
-      <workItem from="1504486092143" duration="26166000" />
+      <workItem from="1504486092143" duration="26180000" />
     </task>
     <task id="LOCAL-00001" summary="add dockerfile">
       <created>1504355028931</created>
@@ -617,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504519212956</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update theme">
+      <created>1504519619771</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1504519619771</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59701000" />
+    <option name="totallyTimeSpent" value="59715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,12 +691,12 @@
     <MESSAGE value="update config.yml" />
     <MESSAGE value="add about page" />
     <MESSAGE value="add aboutme" />
-    <MESSAGE value="update theme" />
     <MESSAGE value="update theme/_config.yml" />
     <MESSAGE value="change hello world name to newstart" />
     <MESSAGE value="add browsing statistics" />
     <MESSAGE value="Modify the bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify the bug" />
+    <MESSAGE value="update theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update theme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1051,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="209">
+          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
           <folding />
         </state>
       </provider>
