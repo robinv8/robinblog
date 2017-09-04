@@ -69,6 +69,10 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+admin:
+  username: robin
+  password_hash: $2a$10$dXHJlizDz5F/7q8F06anf.TyCAyGVvpCUuBkYNSD.Yn2apPyChad2
+  secret: RYB520zh19930627
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
