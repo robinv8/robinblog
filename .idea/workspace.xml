@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="">
+    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update theme">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="article.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -344,11 +344,6 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/db.json" />
   </component>
-  <component name="Push.Settings">
-    <excluded-roots>
-      <path value="$PROJECT_DIR$/themes/icarus" />
-    </excluded-roots>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -377,7 +372,7 @@
       <workItem from="1504351682356" duration="16405000" />
       <workItem from="1504436843438" duration="11464000" />
       <workItem from="1504449516364" duration="5666000" />
-      <workItem from="1504486092143" duration="26180000" />
+      <workItem from="1504486092143" duration="26356000" />
     </task>
     <task id="LOCAL-00001" summary="add dockerfile">
       <created>1504355028931</created>
@@ -624,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504519619771</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update theme">
+      <created>1504519627323</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1504519627323</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59715000" />
+    <option name="totallyTimeSpent" value="59891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1058,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="252">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding />
         </state>
       </provider>
