@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update theme">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/icarus" afterPath="$PROJECT_DIR$/themes/icarus" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,8 +53,8 @@
       <file leaf-file-name="head.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="132">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -547,13 +548,6 @@
       <workItem from="1504667866945" duration="10893000" />
       <workItem from="1504690844520" duration="3013000" />
     </task>
-    <task id="LOCAL-00007" summary="update _config.yml">
-      <created>1504359108054</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1504359108054</updated>
-    </task>
     <task id="LOCAL-00008" summary="update _config.yml">
       <created>1504360296400</created>
       <option name="number" value="00008" />
@@ -890,11 +884,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504708547556</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="update theme">
+      <created>1504713015231</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1504713015231</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98212000" />
+    <option name="totallyTimeSpent" value="98383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1329,8 +1330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="132">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
