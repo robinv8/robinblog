@@ -4,6 +4,7 @@ date: 2017-09-06 11:58:57
 tags: javascript
 categories: 前端
 comment: true
+author: 守候
 thumbnail: http://cdn.rnode.me/images/article1.jpg
 ---
 # 前言
