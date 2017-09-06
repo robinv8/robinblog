@@ -2,9 +2,10 @@
 title: javascript实用技巧和写法建议
 date: 2017-09-06 11:58:57
 tags: javascript
-categories: 前端
+categories: 读书笔记
 comment: true
 author: 守候
+origin: 2
 thumbnail: http://cdn.rnode.me/images/article1.jpg
 ---
 # 前言

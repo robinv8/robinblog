@@ -1,6 +1,8 @@
 ---
 title: 新起点
 date: 2017-09-03 23:30:00
+origin: 1
+categories: 生活感悟
 thumbnail: http://cdn.rnode.me/images/newstart.jpg
 ---
 做开发也有三年了，从代码小白到今天一直是顺风顺水，今年6月份转战来到西安，自己天真的以为在这里可以大刀阔斧的大干一番，没想到坎坷才刚刚开始。
