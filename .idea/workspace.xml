@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
-    </list>
+    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -397,7 +395,7 @@
       <workItem from="1504659045604" duration="1166000" />
       <workItem from="1504667866945" duration="10893000" />
       <workItem from="1504690844520" duration="3013000" />
-      <workItem from="1505358261244" duration="380000" />
+      <workItem from="1505358261244" duration="585000" />
     </task>
     <task id="LOCAL-00010" summary="update _config.yml">
       <created>1504361660163</created>
@@ -746,7 +744,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100635000" />
+    <option name="totallyTimeSpent" value="100840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
