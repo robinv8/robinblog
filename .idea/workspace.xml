@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update" />
+    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="update">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js" afterPath="$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,24 +21,9 @@
       <file leaf-file-name="articledetail.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-              <folding>
-                <marker date="1505358388282" expanded="true" signature="386:891" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="545:857" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="991:1570" ph="..." />
-                <marker date="1505358388282" expanded="true" signature="1035:1241" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="1119:1223" ph="..." />
-                <marker date="1505358388282" expanded="true" signature="1247:1553" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="1291:1501" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="1341:1483" ph="..." />
-                <marker date="1505358388282" expanded="true" signature="1610:1688" ph="..." />
-                <marker date="1505358388282" expanded="true" signature="1720:1764" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="1795:1836" ph="{...}" />
-                <marker date="1505358388282" expanded="true" signature="1894:1933" ph="..." />
-                <marker date="1505358388282" expanded="true" signature="2073:2206" ph="..." />
-                <marker date="1505358388282" expanded="true" signature="2106:2195" ph="{&quot;appid&quot;: 'cytcl5nV8'...}" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="19" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,31 +38,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript实用技巧和写法建议.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/javascript实用技巧和写法建议.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="9" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
+      <file leaf-file-name="leancloudConfig.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <marker date="1505358388279" expanded="true" signature="386:623" ph="{...}" />
-                <marker date="1505358388279" expanded="true" signature="545:623" ph="{...}" />
-                <marker date="1505358388279" expanded="true" signature="1825:1869" ph="{...}" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitmodules">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -193,7 +173,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/icarus" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="themes/icarus" />
@@ -240,15 +220,12 @@
         <option value="$PROJECT_DIR$/public/content.json" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/themes/icarus/source/css/style.styl" />
-        <option value="$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/post.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/post/author.ejs" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/page.ejs" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/post/tag.ejs" />
         <option value="$PROJECT_DIR$/themes/icarus/source/css/_partial/article.styl" />
-        <option value="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" />
-        <option value="$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/javascript实用技巧和写法建议.md" />
         <option value="$PROJECT_DIR$/source/_posts/newstart.md" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/post/source.ejs" />
@@ -260,6 +237,9 @@
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/深入浅出基于依赖收集的响应式原理.md" />
         <option value="$PROJECT_DIR$/.gitmodules" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs" />
+        <option value="$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" />
       </list>
     </option>
   </component>
@@ -280,8 +260,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="210" />
+    <option name="x" value="274" />
+    <option name="y" value="83" />
     <option name="width" value="1591" />
     <option name="height" value="815" />
   </component>
@@ -327,6 +307,67 @@
             <path>
               <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robinblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robinblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,7 +436,8 @@
       <workItem from="1504659045604" duration="1166000" />
       <workItem from="1504667866945" duration="10893000" />
       <workItem from="1504690844520" duration="3013000" />
-      <workItem from="1505358261244" duration="585000" />
+      <workItem from="1505358261244" duration="978000" />
+      <workItem from="1505454719402" duration="754000" />
     </task>
     <task id="LOCAL-00010" summary="update _config.yml">
       <created>1504361660163</created>
@@ -744,7 +786,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100840000" />
+    <option name="totallyTimeSpent" value="101987000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,16 +798,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="210" width="1591" height="815" extended-state="0" />
+    <frame x="274" y="83" width="1591" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19510625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361234" sideWeight="0.5280103" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.4968" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5022537" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.4945267" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.4977463" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34361234" sideWeight="0.4719897" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34361234" sideWeight="0.46941403" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -904,11 +946,7 @@
     <entry file="file://$PROJECT_DIR$/public/about/index.html" />
     <entry file="file://$PROJECT_DIR$/public/content.json" />
     <entry file="file://$PROJECT_DIR$/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/logo.png" />
     <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/thumb-default-small.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -942,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -968,14 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/sidebar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1028,41 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="420" column="18" lean-forward="true" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <marker date="1505358388282" expanded="true" signature="386:891" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="545:857" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="991:1570" ph="..." />
-            <marker date="1505358388282" expanded="true" signature="1035:1241" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="1119:1223" ph="..." />
-            <marker date="1505358388282" expanded="true" signature="1247:1553" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="1291:1501" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="1341:1483" ph="..." />
-            <marker date="1505358388282" expanded="true" signature="1610:1688" ph="..." />
-            <marker date="1505358388282" expanded="true" signature="1720:1764" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="1795:1836" ph="{...}" />
-            <marker date="1505358388282" expanded="true" signature="1894:1933" ph="..." />
-            <marker date="1505358388282" expanded="true" signature="2073:2206" ph="..." />
-            <marker date="1505358388282" expanded="true" signature="2106:2195" ph="{&quot;appid&quot;: 'cytcl5nV8'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <marker date="1505358388279" expanded="true" signature="386:623" ph="{...}" />
-            <marker date="1505358388279" expanded="true" signature="545:623" ph="{...}" />
-            <marker date="1505358388279" expanded="true" signature="1825:1869" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,25 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/javascript实用技巧和写法建议.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/深入浅出基于依赖收集的响应式原理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1191,6 +1160,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/javascript实用技巧和写法建议.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/sidebar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/js/leancloudConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/articledetail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
