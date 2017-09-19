@@ -5,6 +5,7 @@ tags: ubuntu
 comment: true
 categories: ubuntu
 origin: 1
+thumbnail: http://cdn.rnode.me/images/20170914/speed.jpg
 ---
 新手在使用Ubuntu的时候可能在升级时感觉很慢，如果这样他就需要换一个适合自己的源了。
 下面我就简单的说一下怎样换源。

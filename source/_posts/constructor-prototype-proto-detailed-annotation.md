@@ -7,6 +7,7 @@ categories: 读书笔记
 comment: true
 origin: 2
 author: 苹果小萝卜
+thumbnail: http://cdn.rnode.me/images/20170919/article1.jpg
 ---
 本文为了解决一下问题：
   * `_proto_`(实际原型)和`prototype`(原型属性)不一样！！！
