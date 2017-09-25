@@ -6,7 +6,7 @@ categories: javascript核心知识
 comment: true
 origin: 2
 author: 阮一峰
-thumbnail: http://cdn.rnode.me/images/20170922/img2.png
+thumbnail: http://cdn.rnode.me/images/20170925/img1.jpg
 ---
 # 涵义
 this关键字是一个非常重要的语法点。毫不夸张地说，不理解它的含义，大部分开发任务都无法完成。
