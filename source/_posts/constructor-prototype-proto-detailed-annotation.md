@@ -158,7 +158,7 @@ person.sayName(); //输出 x1
 ```
 首先给构造函数的原型对象`Person.prototype`赋值`sayName`方法，由构造函数`Person`创建的实例`person`会继承原型对象上的`sayName`方法。
 # 为什么会继承原型对象的方法？
-因为ECMAscript的发明者为了简化这门余元，同事又保证继承性，采用了练市继承的方法。
+因为ECMAscript的发明者为了简化这门语言，同时又保证继承性，采用了链式继承的方法。
 由`constructor`创建的每个`instance`都有个`_proto_`属性，它指向`constructor.prototype`。那么`constructor.prototype`上定义的属性和方法都会被`instance`所继承
 ```javascript
 function Person(name){
