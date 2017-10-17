@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/front-end-frames.md" />
+    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="add an article">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/frontend-frames-samples.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/front-end-frames.md" afterPath="$PROJECT_DIR$/source/_posts/front-end-frames.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -141,8 +142,23 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/front-end-frames.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="259">
-                <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <first_editor relative-caret-position="1501">
+                <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frontend-frames-samples.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/frontend-frames-samples.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-411">
+                <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -271,8 +287,9 @@
         <option value="$PROJECT_DIR$/source/_posts/arithmetic/roman-num.md" />
         <option value="$PROJECT_DIR$/source/_posts/constructor-prototype-proto-detailed-annotation.md" />
         <option value="$PROJECT_DIR$/source/_posts/translate/distributing-an-angular-library-aot-ngc-types.md" />
-        <option value="$PROJECT_DIR$/source/_posts/front-end-frames.md" />
         <option value="$PROJECT_DIR$/source/_posts/jquery-bind-event.md" />
+        <option value="$PROJECT_DIR$/source/_posts/frontend-frames-samples.md" />
+        <option value="$PROJECT_DIR$/source/_posts/front-end-frames.md" />
       </list>
     </option>
   </component>
@@ -439,14 +456,7 @@
       <workItem from="1507770791498" duration="3190000" />
       <workItem from="1507802346664" duration="60000" />
       <workItem from="1507856295529" duration="891000" />
-      <workItem from="1508209536537" duration="4441000" />
-    </task>
-    <task id="LOCAL-00013" summary="update _config.yml">
-      <created>1504368501687</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1504368501687</updated>
+      <workItem from="1508209536537" duration="5395000" />
     </task>
     <task id="LOCAL-00014" summary="setting _config.yml">
       <created>1504368859185</created>
@@ -784,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507802401929</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add an article">
+      <created>1508224355661</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1508224355662</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116485000" />
+    <option name="totallyTimeSpent" value="117439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,13 +885,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/categories.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/aboutme.ejs" />
     <entry file="file://$PROJECT_DIR$/public/about/index.html" />
     <entry file="file://$PROJECT_DIR$/public/content.json" />
@@ -1287,11 +1297,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/frontend-frames-samples.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-411">
+            <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/front-end-frames.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="259">
-            <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <first_editor relative-caret-position="1501">
+            <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor>

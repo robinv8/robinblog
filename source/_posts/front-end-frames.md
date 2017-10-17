@@ -76,4 +76,5 @@ React特性如下：　
 缺点：
 1. React本身只是一个V而已，并不是一个完整的框架，所以如果是大型项目想要一套完整的框架的话，基本都需要加上ReactRouter和Flux才能写大型应用。
 
+各类框架典型代表作请戳 [这里](/frontend-frames-samples/)
 【转自】 [The~Only](http://www.cnblogs.com/Zcqian/p/6843787.html)
