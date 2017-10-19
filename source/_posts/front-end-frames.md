@@ -1,7 +1,7 @@
 ---
 title: 前端框架分享
 date: 2017-10-17 12:58:57
-tags: javascript
+tags: [javascript,angular,react,vue]
 categories: 读书笔记
 comment: true
 origin: 2

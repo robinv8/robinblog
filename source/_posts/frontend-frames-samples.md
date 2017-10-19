@@ -1,7 +1,7 @@
 ---
 title: 前端框架-项目介绍
 date: 2017-10-17 15:14:57
-tags: javascript
+tags: [javascript,angular,react,vue]
 categories: 读书笔记
 comment: true
 origin: 1
