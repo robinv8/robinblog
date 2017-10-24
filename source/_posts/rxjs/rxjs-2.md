@@ -12,17 +12,11 @@ author: du1dume
 **RxJS可以解决的问题**
 
 -   我们知道传统的for，while对循环体中的异步程序是无法感知的，或者说，它们不会等待异步程序执行完毕再进入下一轮循环。
-
 -   错误处理是任何程序都要解决的问题，本身就已很复杂的回调函数中再嵌入try/catch块吗？如果还想加入重试机制呢？
-
 -   商业逻辑内嵌在回调函数中，可读性差，复杂度高。现如今流行的组件化编程，即可重用，又可解耦，还方便测试；
-
 -   闭包是强大的，过度地使用闭包将导致我们不得不谨慎地审视变量的作用域以及其值。再加上共享变量带来的副作用，混杂在if/else条件语句和for循环中，每天都会有修不完的bug；
-
 -   根据事件或耗时操作无响应的时间进行取消操作；
-
 -   自己实现throttling和debouncing是很困难的(二者区别见<http://www.jianshu.com/p/e91775195608>)
-
 -   众所周知的事件监听带来的内存泄露问题；
 
 RxJS可以优雅地替代callback，或者基于promises的任何第三方库，使我们可以使用一个编程模型来对待任何数据源(除了远程http请求，Node.js中的Event
@@ -31,8 +25,9 @@ Emitter也使用的是回调机制)。也就是说，我们可以用RxJS来处�
 **数据的流动和传播**
 
 事件必然伴随着数据的产生，在响应式编程的世界中，我们把任何可以被使用的数据源统称为流(Stream)。我们再来看一下什么是响应式编程模型：
-
+```javascript
 var x = 1;var y = 2;var z = x + y; // z = ? x = 2; // z = ?
+```
 
 显而易见，z第一次出现时的值是3，当x重新被赋值为2时，z的值是多少？显而易见，z没有变化，因为a的变化不会引起z的变化。我们可以说这种变化没有被传播开来。因此我们可以说，响应式编程是围绕数据的流动和传播的，某个变量的变化会导致其他变量的变化。RxJS就是用Javascript实现的响应式编程。
 
@@ -48,32 +43,34 @@ pipeline的中文意思是管道，很形象。在管道里是一个接一个的
 
 就像面向对象中万物皆对象一样，在RxJS中，不管是单个值，字节流还是从http请求获取来的值，都是stream。比如，假设在RxJS中我们有叫做Stream的数据类型，我们创建了一个单个值的数据源：
 
+```javascript
 Stream(2017)；
+```
 
 这个时刻，它仅仅是个数据源，什么行为也没有发生，如果想让它运作起来，我们得需要消费者或者叫做观察者。通过消费者的订阅行为，数据源中的数据才开始真正流动起来。因此我们可以知道stream这个数据类型是惰性求值的，不像promises，一旦创建即开始运行。下面看看如果订阅它让它流动起来：
 
-Stream(2017).subscribe( result =\> { console.log(result); } );
+```javascript
+Stream(2017).subscribe( result => { console.log(result); } );
+```
 
 subscribe函数中的箭头函数即消费者，当消费者一接收到数据，stream就结束了。
 
 有管道的例子：
-
-Stream(1, 2, 3, 4) .filter(val =\> (val % 2) === 0) .map(val =\> val \* val)
-.subscribe( result =\> { console.log(result); } );
+```javascript
+Stream(1, 2, 3, 4) .filter(val => (val % 2) === 0) .map(val => val * val)
+.subscribe( result => { console.log(result); } );
+```
 
 filter和map即管道中的函数，它们中的val参数即从stream中流出的数据。它们一起组成了pipeline。
 
 **RxJS中的组件**
 
 -   生产者：在RxJS中的生产者叫做Observables。Observables负责推送事件，但不处理事件；
-
 -   消费者：在RxJS中的消费者叫做Observer。
 
 >   数据只会从生产者流向消费者
-
 -   管道：在RxJS中，管道中的一个一个函数叫做observable
     operators，简称operators。
-
 -   时间：我们知道异步程序不容易处理的背后实质就是时间问题，RxJS是面向异步编程的解决方案，因此时间遍布于RxJS中的每一个角落。目前为止，我们只需要了解时间在RxJS中不是恒定的，产生事件的快慢与否取决于我们的需求。当然，RxJS给了我们解决方案。
 
 **响应式编程范式与其他编程范式**
