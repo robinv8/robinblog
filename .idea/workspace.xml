@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="">
+    <list default="true" id="4cf19519-9f90-4379-a390-7acf8c448d22" name="Default" comment="add chat function">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/icarus" afterPath="$PROJECT_DIR$/themes/icarus" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -110,8 +110,8 @@
       <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="66" />
+            <state relative-caret-position="88">
+              <caret line="4" column="96" lean-forward="true" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -368,11 +368,6 @@
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="Push.Settings">
-    <excluded-roots>
-      <path value="$PROJECT_DIR$/themes/icarus" />
-    </excluded-roots>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\webprojects\robinblog\source\_posts\rxjs" />
@@ -438,14 +433,7 @@
       <workItem from="1508382581145" duration="778000" />
       <workItem from="1508837299156" duration="579000" />
       <workItem from="1509608178957" duration="1000" />
-      <workItem from="1511146118529" duration="142000" />
-    </task>
-    <task id="LOCAL-00018" summary="update config.yml">
-      <created>1504438760089</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1504438760089</updated>
+      <workItem from="1511146118529" duration="538000" />
     </task>
     <task id="LOCAL-00019" summary="delete config.yml">
       <created>1504440038637</created>
@@ -783,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508837871009</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add chat function">
+      <created>1511146327629</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1511146327630</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120152000" />
+    <option name="totallyTimeSpent" value="120548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,7 +853,8 @@
     <MESSAGE value="update article" />
     <MESSAGE value="update theme" />
     <MESSAGE value="add an article" />
-    <option name="LAST_COMMIT_MESSAGE" value="add an article" />
+    <MESSAGE value="add chat function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add chat function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1189,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="66" />
+        <state relative-caret-position="88">
+          <caret line="4" column="96" lean-forward="true" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
           <folding />
         </state>
       </provider>
