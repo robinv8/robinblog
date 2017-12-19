@@ -64,9 +64,9 @@ yarn config set disturl https://npm.taobao.org/dist --global
 ![](http://cdn.rnode.me/images/20171218/img11.jpg)
 6. 安装完成后，在Android Studio的欢迎界面中选择Configure | SDK Manager
 ![](http://cdn.rnode.me/images/20171218/img13.jpg)
-7. 在SDK Platforms窗口中，选择Show Package Details，然后在Android 6.0 (Marshmallow)中勾选==Google APIs==、==Android SDK Platform 23==、==Intel x86 Atom System Image==、==Intel x86 Atom_64 System Image==以及==Google APIs Intel x86 Atom_64 System Image==。
+7. 在SDK Platforms窗口中，选择Show Package Details，然后在Android 6.0 (Marshmallow)中勾选`Google APIs`、`Android SDK Platform 23`、`Intel x86 Atom System Image`、`Intel x86 Atom_64 System Image`以及`Google APIs Intel x86 Atom_64 System Image`。
 ![](http://cdn.rnode.me/images/20171218/img14.jpg)
-8. 在SDK Tools窗口中，选择Show Package Details，然后在Android SDK Build Tools中勾选==Android SDK Build-Tools 23.0.1==（必须包含有这个版本。当然如果其他插件需要其他版本，你可以同时安装其他多个版本）。然后还要勾选最底部的==Android Support Repository==。
+8. 在SDK Tools窗口中，选择Show Package Details，然后在Android SDK Build Tools中勾选`Android SDK Build-Tools 23.0.1`（必须包含有这个版本。当然如果其他插件需要其他版本，你可以同时安装其他多个版本）。然后还要勾选最底部的`Android Support Repository`。
 ![](http://cdn.rnode.me/images/20171218/img15.jpg)
 9. 开始安装以上所选内容：
 ![](http://cdn.rnode.me/images/20171218/img16.jpg)
@@ -74,7 +74,7 @@ yarn config set disturl https://npm.taobao.org/dist --global
 ## ANDROID_HOME环境变量
 ![](http://cdn.rnode.me/images/20171218/img17.jpg)
 
-到这里为止基本的环境就安装结束了，在这里==强烈建议==一下，在Android studio新建一个android项目，开发工具会检测你的android开发环境，如图：
+到这里为止基本的环境就安装结束了，在这里`强烈建议`一下，在Android studio新建一个android项目，开发工具会检测你的android开发环境，如图：
 ![](http://cdn.rnode.me/images/20171218/img18.jpg)
 
 该问题同样也会影响react native 在android端的调试，点击标记的区域安装相关环境，直到该区域没有蓝色警告，如图：
