@@ -66,6 +66,6 @@ APP发布| web服务器 | App Store|App Store|App Store
 - 展示html的组件 [react-native-htmlview](https://github.com/jsdf/react-native-htmlview)
 - 一款简单易用的 Toast 组件 [react-native-root-toast](https://github.com/magicismight/react-native-root-toast)
 
-下一篇：[react native 基础环境搭建](/reactnative/interduction/)
+下一篇：[react native 基础环境搭建](/reactnative/getting-started/)
 
 【完】
