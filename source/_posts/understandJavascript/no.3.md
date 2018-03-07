@@ -56,7 +56,7 @@ var person = new Person();
 console.log(person.__proto__ === Person.prototype);// true
 ```
 于是我们更新了关系图：
-![](http://cdn.rnode.me/images/201800306/prototype2.png)
+![](http://cdn.rnode.me/images/20180306/prototype2.png)
 
 既然实例对象和构造函数都可以指定原型，那么原型是否有属性指向构造函数或者实例呢？
 
@@ -122,7 +122,7 @@ obj.name = 'Kevin'
 console.log(obj.name) // Kevin
 ```
 其实原型对象就是通过 Object 构造函数生成的，结合之前所讲，实例的 __proto__ 指向构造函数的 prototype ，所以我们再更新下关系图：
-![](http://cdn.rnode.me/images/20180307/prototype4.png)
+![](http://cdn.rnode.me/images/20180306/prototype4.png)
 
 # 原型链
 那 Object.prototype 的原型呢？
@@ -143,7 +143,7 @@ console.log(Object.prototype.__proto__ === null) // true
 
 最后一张关系图也可以更新为：
 
-![](http://cdn.rnode.me/images/20180307/prototype5.png)
+![](http://cdn.rnode.me/images/20180306/prototype5.png)
 
 顺便还要说一下，图中由相互关联的原型组成的链状结构就是原型链，也就是蓝色的这条线。
 
