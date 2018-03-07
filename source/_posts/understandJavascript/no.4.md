@@ -1,6 +1,6 @@
 ---
-title: 深入理解JavaScript系列（3）：从原型到原型链
-date: 2018-03-6 14:41:44
+title: 深入理解JavaScript系列（4）：从原型到原型链
+date: 2018-03-06 14:41:44
 tags: javascript
 categories: javascript核心知识
 comment: true
