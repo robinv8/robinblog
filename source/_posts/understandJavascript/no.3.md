@@ -1,182 +1,187 @@
 ---
-title: 深入理解JavaScript系列（3）：从原型到原型链
-date: 2018-03-6 14:41:44
-tags: javascript
+layout: "post"
+title: "深入理解JavaScript系列（3）：constructor、prototype、_proto_ 详解"
+date: "2017-09-19 09:37"
+tag: javascript
 categories: javascript核心知识
 comment: true
-author: 冴羽
 origin: 2
+author: 苹果小萝卜
+thumbnail: http://cdn.rnode.me/images/20170919/article1.jpg
 ---
-# 构造函数创建对象
+本文为了解决一下问题：
+  * `_proto_`(实际原型)和`prototype`(原型属性)不一样！！！
+  * `constructor`属性(原型对象中包含这个属性，实例当中也同样会继承这个属性)
+  * `prototype`属性(`constructor.prototype`原型对象)
+  * `_proto_`属性(实例指向原型对象的指针)
+
+首先弄清楚几个概念：
+# 什么是对象
+
+若干属性的集合
+
+# 什么是原型
+
+原型是一个对象，其他对象可以通过它实现继承
+
+# 哪些对象有原型
+
+所有的对象在默认情况下都有一个原型，因为原型本身也是对象，所以每个原型自身又有一个原型(只有一个例外，默认的对象原型在原型链的顶端)
+
+----
+# constructor 属性
+>`constuctor`属性始终指向创建当前对象的构造函数
+
 ```javascript
-function Person() {
-  
-}
-var person = new Person();
-person.name = 'Kevin';
-console.log(person.name);// Kevin
+var arr=[1,2,3];
+console.log(arr.constructor); //输出 function Array(){}
+var a={};
+console.log(arr.constructor);//输出 function Object(){}
+var bool=false;
+console.log(bool.constructor);//输出 function Boolean(){}
+var name="hello";
+console.log(name.constructor);//输出 function String(){}
+var sayName=function(){}
+console.log(sayName.constructor)// 输出 function Function(){}
+
+//接下来通过构造函数创建instance
+function A(){}
+var a=new A();
+console.log(a.constructor); //输出 function A(){}
 ```
-在这个例子中，Person就是一个构造函数，我们使用new创建一个实例对象person。
-很简单吧，接下来进入正题：
-## prototype
-每个函数都有一个prototype属性，就是我们经常在各种例子中看到的那个prototype,比如：
+以上部分解释了任何一个对象都有constuctor属性，指向创建这个对象的构造函数
+
+# prototype属性
+
+注意：prototype是每个`函数对象`都具有的属性，被称为原型对象，而`_proto_`属性才是每个对象才有的是属性，一但原型对象被赋予属性和方法，那么由相应的构造函数创建的实例会继承`prototype`上的属性和方法
 
 ```javascript
-function Person() {
+//constructor : A
+//instance : a
+function A(){}
+var a=new A();
 
-}
-// 虽然写在注释里，但是你要注意：
-// prototype是函数才会有的属性
-Person.prototype.name = 'Kevin';
-var person1 = new Person();
-var person2 = new Person();
-console.log(person1.name);// Kevin
-console.log(person2.name);// Kevin
-```
-那这个函数的prototype属性到底指向的是什么呢？是这个函数的原型吗？
-其实，函数的prototype属性指向了一个对象，这个对象正是调用该构造函数和创建的实例的原型，也就是这个例子中的person1和person2的原型。
-
-那什么是原型呢？你可以这样理解：每一个JavaScript对象（null除外）在创建的时候会与之关联另一个对象，这个对象就是我们所说的原型，每一个对象都会从原型“继承”属性。
-让我们用一张图表示构造函数和实例原型之间的关系：
-![](http://cdn.rnode.me/images/20180306/prototype1.png)
-
-在这张图中我们用Object.prototype表示实例原型。
-那么我们该怎么表示实例与实例原型，也就是person和Person.prototype之间的关系呢，这时候就要讲到第二个属性：
-
-##  __ proto __
-
-这是每个JavaScript对象(除null)都具有的一个属性，叫__ proto __，这个属性会指向该对象的原型。
-
-为了证明这一点,我们可以在火狐或者谷歌中输入：
-```javascript
-function Person() {
-  
-}
-var person = new Person();
-console.log(person.__proto__ === Person.prototype);// true
-```
-于是我们更新了关系图：
-![](http://cdn.rnode.me/images/20180306/prototype2.png)
-
-既然实例对象和构造函数都可以指定原型，那么原型是否有属性指向构造函数或者实例呢？
-
-## constructor
-指向实例到没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数倒是有的，这就要降到第三个属性：constructor,每个原型都有一个constructor属性指向关联的构造函数。
-
-为了验证这一点，我们可以尝试：
-```javascript
-function Person() {
-
-}
-console.log(Person === Person.prototype.constructor); // true
-```
-所以再更新一下关系图：
-![](http://cdn.rnode.me/images/20180306/prototype3.png)
-
-综上我们已经得出：
-```javascript
-function Person() {
-
+A.prototype.name="xl";
+A.prototype.sayName=function(){
+    console.log(this.name);
 }
 
-var person = new Person();
+console.log(a.name);// "xl"
+a.sayName();// "xl"
 
-console.log(person.__proto__ == Person.prototype) // true
-console.log(Person.prototype.constructor == Person) // true
-// 顺便学习一个ES5的方法,可以获得对象的原型
-console.log(Object.getPrototypeOf(person) === Person.prototype) // true
+//那么由constructor创建的instance会继承prototype上的属性和方法
 ```
-了解了构造函数、实例原型、和实例之间的关系：
-# 实例与原型
+# constructor属性和prototype属性
 
-当读取实例的属性时，如果找不到，就会找到与对象关联的原型中的属性，如果还查不到，就去找原型的原型，一直找到最顶层位置。
-举个例子：
+每个函数都有`prototype`属性，而这个`prototype`的`constructor`属性会指向这个函数。
+
 ```javascript
-function Person() {
+function Person(name){
+  this.name=name;
+}
+Person.prototype.sayName=function(){
+  console.log(this.name);
+}
+var person=new Person('x1');
+console.log(person.constructor); // function Person(){}
+console.log(person.prototype.constructor); // function Person(){}
+console.log(Person.constructor); // function Function(){}
+```
+如果我们的重写(重新定义)这个`Person.constructor`属性，那么`constructor`属性的指向就会发生改变了。
 
+```javascript
+Person.prototype={
+  setName:function(){
+    console.log(this.name);
+  }
+}
+console.log(person.constructor==Person); // 输出 false (为什么会输出false后面讲)
+console.log(Person.constructor==Person); //输出 false
+
+console.log(Person.prototype.constructor); // 输出 function Object(){}
+//这里为什么会输出function Object(){}
+//还记得之前说过constructor属性始终指向创建当前对象的构造函数吗？
+
+Person.prototype={
+  sayName:function(){
+    console.log(this.name)
+  }
+}
+//这里实际上是对原型对象的重写
+Person.prototype=new Object(){
+  sayName:function(){
+    console.log(this.name)
+  }
+}
+// 看到了吧。现在Person.prototype.constructor属性实际上指向Object的。
+
+// 那么我如何将constructor属性再次指向Person呢？
+
+Person.prototype.constructor=Person;
+```
+接下来解释为什么，看下面的例子
+```javascript
+function Person(name){
+  this.name=name;
 }
 
-Person.prototype.name = 'Kevin';
+var personOne=new Person('x1');
 
-var person = new Person();
-
-person.name = 'Daisy';
-console.log(person.name) // Daisy
-
-delete person.name;
-console.log(person.name) // Kevin
-```
-在这个例子中，我们给实例对象person添加了name属性，当我们打印person.name的时候，结果自然为Daisy.
-
-但是当我们删除了person的name属性室，读取person.name,从person对象中找不到name属性就会从person的原型也就是person.__ proto __,也就是Person.prototype中查找，幸运得失，我们找到了name属性，结果为Kevin。
-
-但是万一还没有找到呢？原型的原型又是什么呢？
-
-# 原型的原型
-
-在前面，我们已经讲了原型也是一个对象，既然是对象，我们就可以用最原始的方式创建它，那就是：
-
-```javascript
-var obj = new Object();
-obj.name = 'Kevin'
-console.log(obj.name) // Kevin
-```
-其实原型对象就是通过 Object 构造函数生成的，结合之前所讲，实例的 __proto__ 指向构造函数的 prototype ，所以我们再更新下关系图：
-![](http://cdn.rnode.me/images/20180306/prototype4.png)
-
-# 原型链
-那 Object.prototype 的原型呢？
-
-null，我们可以打印：
-
-```javascript
-console.log(Object.prototype.__proto__ === null) // true
-```
-然而 null 究竟代表了什么呢？
-
-引用阮一峰老师的 《undefined与null的区别》 就是：
-> null 表示“没有对象”，即该处不应该有值。
-
-所以 Object.prototype.__proto__ 的值为 null 跟 Object.prototype 没有原型，其实表达了一个意思。
-
-所以查找属性的时候查到 Object.prototype 就可以停止查找了。
-
-最后一张关系图也可以更新为：
-
-![](http://cdn.rnode.me/images/20180306/prototype5.png)
-
-顺便还要说一下，图中由相互关联的原型组成的链状结构就是原型链，也就是蓝色的这条线。
-
-# 补充
-
-最后，补充三点大家可能不会注意的地方：
-
-### constructor
-
-首先是 constructor 属性，我们看个例子：
-
-```javascript
-function Person() {
-
+Person.prototype={
+  sayName:function(){
+    console.log(this.name);
+  }
 }
-var person = new Person();
-console.log(person.constructor === Person); // true
+var personTwo=new Person('x2');
+console.log(personOne.costructor==Person); // true
+console.log(personTwo.constructor==Person); // false
+
+// 大家可能会对这个地方产生疑惑？为何第二个会输出false,personTwo不也是由Person创建的吗？这个地方应该要输出true啊？
+// 这里涉及到js里面的原型继承
+// 这个地方是因为person实例继承了Person.prototype原型对象的所有的方法和属性，包括constructor属性。当Person.prototype的constructor发生变化的时候，相应的person实例上的constructor属性也会发生变化。所以第二个会输出false
+// 当然第一个是输出true，因为改变构造函数的prototype属性是在personOne被创建出来之后。
 ```
-
-当获取 person.constructor 时，其实 person 中并没有 constructor 属性,当不能读取到constructor 属性时，会从 person 的原型也就是 Person.prototype 中读取，正好原型中有该属性，所以：
-
+接下解释`_proto_`和`prototype`属性
+同样拿上面的代码来解释：
 ```javascript
-person.constructor === Person.prototype.constructor
+function Person(name){
+  this.name=name;
+}
+Person.prototype.sayName=function(){
+  console.log(this.name);
+}
+var person=name Person('x1');
+person.sayName(); //输出 x1
+//constructor : Person
+//instance : person
+//prototype : Person.prototype
 ```
+首先给构造函数的原型对象`Person.prototype`赋值`sayName`方法，由构造函数`Person`创建的实例`person`会继承原型对象上的`sayName`方法。
+# 为什么会继承原型对象的方法？
+因为ECMAscript的发明者为了简化这门语言，同时又保证继承性，采用了链式继承的方法。
+由`constructor`创建的每个`instance`都有个`_proto_`属性，它指向`constructor.prototype`。那么`constructor.prototype`上定义的属性和方法都会被`instance`所继承
+```javascript
+function Person(name){
+    this.name=name;
+}
+Person.prototype.sayName=function(){
+    console.log(this.name);
+}
 
-### __ proto __
+var personOne=new Person("a");
+var personTwo=new Person("b");
 
-其次是 __proto__ ，绝大部分浏览器都支持这个非标准的方法访问原型，然而它并不存在于 Person.prototype 中，实际上，它是来自于 Object.prototype ，与其说是一个属性，不如说是一个 getter/setter，当使用 obj.__proto__ 时，可以理解成返回了 Object.getPrototypeOf(obj)。
+personOne.sayName(); // 输出  "a"
+personTwo.sayName(); //输出 "b"
 
-真的是继承吗？
+console.log(personOne.__proto__==Person.prototype); // true
+console.log(personTwo.__proto__==Person.prototype); // true
 
-最后是关于继承，前面我们讲到“每一个对象都会从原型‘继承’属性”，实际上，继承是一个十分具有迷惑性的说法，引用《你不知道的JavaScript》中的话，就是：
+console.log(personOne.constructor==Person); //true
+console.log(personTwo.constructor==Person); //true
+console.log(Person.prototype.constructor==Person); //true
 
-继承意味着复制操作，然而 JavaScript 默认并不会复制对象的属性，相反，JavaScript 只是在两个对象之间创建一个关联，这样，一个对象就可以通过委托访问另一个对象的属性和函数，所以与其叫继承，委托的说法反而更准确些。
-
-转载地址：[https://github.com/mqyqingfeng/Blog/issues/2](https://github.com/mqyqingfeng/Blog/issues/2)
+console.log(Person.constructor); //function Function(){}
+console.log(Person.__proto__.__proto__); // Object{}
+```
+![](http://cdn.rnode.me/images/20170919/article2.jpg)
