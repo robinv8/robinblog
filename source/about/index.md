@@ -16,7 +16,7 @@ date: 2015-01-02 23:23:59
 * GitHub：[https://github.com/robinv8](https://github.com/robinv8)
 * 期望职位：前端工程师
 * 期望薪资：税前月薪12k~15k
-* 期望城市：西安
+* 期望城市：杭州/西安
 
 # 工作经历
 
