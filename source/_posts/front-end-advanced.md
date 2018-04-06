@@ -9,7 +9,7 @@ origin: 1
 
 ## HTML/CSS篇
 1. [SEO和语义化][1]
-2. 常见布局及居中
+2. [常见布局及居中][2]
 3. HTML5新特性
 4. CSS3新特性
 5. flex布局
@@ -85,3 +85,4 @@ origin: 1
 6. 未来规划
 
 [1]: /FEAdvanced/seo%E5%92%8C%E8%AF%AD%E4%B9%89%E5%8C%96/
+[2]: /FEAdvanced/%E5%B8%B8%E8%A7%81%E5%B8%83%E5%B1%80%E5%8F%8A%E5%B1%85%E4%B8%AD/
