@@ -1,7 +1,7 @@
 ---
 title: 前端进阶系列—SEO和语义化
 date: 2018-04-1 20:43:57
-tags: [html,css,javascript]
+tags: [html,css,javascript,SEO]
 categories: [前端进阶系列]
 comment: true
 origin: 1
@@ -11,7 +11,7 @@ origin: 1
 
 
 ## 基本概念
-SEO：(Search Engine Optimization)意为搜索引擎优化。搜索引擎优化是一种利用收缩引擎的收缩规则来提高目的网站的自然排名的方式。说白了就是对品牌的自我宣传，从而获取收益。
+SEO：(Search Engine Optimization)意为搜索引擎优化。搜索引擎优化是一种利用搜索引擎的收缩规则来提高目的网站的自然排名的方式。说白了就是对品牌的自我宣传，从而获取收益。
 
 HTML语义化：根据内容的结构的语义化，选择合适的标签（代码语义化）便于开发者阅读和写出更优雅的代码的同时让浏览器的爬虫和机器更好的解析。
 

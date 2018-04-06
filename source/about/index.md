@@ -14,14 +14,11 @@ date: 2015-01-02 23:23:59
 * 工作年限：4年
 * 技术博客：[http://blog.rnode.me](http://blog.rnode.me)
 * GitHub：[https://github.com/robinv8](https://github.com/robinv8)
-* 期望职位：前端工程师
-* 期望薪资：税前月薪12k~15k
-* 期望城市：杭州/西安
 
 # 工作经历
 
 ## 北京天创金农科技有限公司（2017年8月~至今）
-###蚂蚁农服项目
+### 蚂蚁农服项目
 
 * 蚂蚁农服web平台模块开发；
 * 林管项目bug修改。
