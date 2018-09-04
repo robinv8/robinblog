@@ -2,10 +2,10 @@
 
 # We label our stage as 'builder'
 FROM node:8-alpine as builder
-
 WORKDIR /app
 RUN npm config set user 0
 RUN npm config set unsafe-perm true
+RUN npm config set registry http://registry.npm.taobao.org/
 RUN npm install -g hexo-cli
 
 COPY . /app
