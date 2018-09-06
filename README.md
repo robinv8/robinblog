@@ -47,8 +47,3 @@
 * 生活感悟
     * [新起点-2018](https://github.com/robinv8/robinblog/blob/master/source/_posts/newstart/starting-2.md)
     * [新起点-2017](https://github.com/robinv8/robinblog/blob/master/source/_posts/newstart/starting-1.md)
-
-
-![](http://cdn.rnode.me/images/my-qrcode.png)
-
-
