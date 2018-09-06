@@ -33,8 +33,8 @@
     * [深入理解JavaScript系列—认识原型对象和原型链](https://github.com/robinv8/robinblog/blob/master/source/_posts/understandJavascript/认识原型对象和原型链.md)
     * [深入理解JavaScript系列—从原型到原型链](https://github.com/robinv8/robinblog/blob/master/source/_posts/understandJavascript/no.4.md)
 * rxjs系列
-    * [RxJS系列-你应该知道的一些知识](https://github.com/robinv8/robinblog/blob/master/source/_posts/rxjs/rxjs-1.md)
-    * [RxJS系列教程-什么是RxJS？](https://github.com/robinv8/robinblog/blob/master/source/_posts/rxjs/rxjs-2.md)
+    * [RxJS系列—你应该知道的一些知识](https://github.com/robinv8/robinblog/blob/master/source/_posts/rxjs/rxjs-1.md)
+    * [RxJS系列—什么是RxJS？](https://github.com/robinv8/robinblog/blob/master/source/_posts/rxjs/rxjs-2.md)
 * react native系列
     * [react native系列—介绍](https://github.com/robinv8/robinblog/blob/master/source/_posts/reactnative/interduction.md)
     * [react native系列—环境搭建](https://github.com/robinv8/robinblog/blob/master/source/_posts/reactnative/getting-started.md)
