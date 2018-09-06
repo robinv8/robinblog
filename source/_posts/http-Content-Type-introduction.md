@@ -2,7 +2,7 @@
 title: 理解HTTP之Content-Type
 date: 2018-1-30 13:10:44
 tags: http
-categories: 读书笔记
+categories: 随记
 comment: true
 author: 夏日小草
 origin: 2
@@ -95,7 +95,7 @@ Content-Disposition: form-data; name="file"; filename="index.py"
 ## text/xml
 微信用的是这种数据格式发送请求的。
 ```
-POST http://www.homeway.me HTTP/1.1 
+POST http://www.homeway.me HTTP/1.1
 Content-Type: text/xml
 
 <?xml version="1.0"?>

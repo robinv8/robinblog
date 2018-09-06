@@ -2,7 +2,7 @@
 title: angular模块库开发
 date: 2017-10-19 11:15:57
 tags: [javascript,angular]
-categories: [angular]
+categories: [随记]
 comment: true
 origin: 1
 ---

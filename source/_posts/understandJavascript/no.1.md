@@ -1,5 +1,5 @@
 ---
-title: 深入理解JavaScript系列（1）：编写高质量JavaScript代码的基本要点
+title: 深入理解JavaScript系列—编写高质量JavaScript代码的基本要点
 date: 2018-01-22 11:54:44
 tags: javascript
 categories: javascript核心知识

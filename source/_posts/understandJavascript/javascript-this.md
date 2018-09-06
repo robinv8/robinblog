@@ -2,7 +2,7 @@
 title: Javascript的this用法
 date: 2017-09-22 16:58:57
 tags: javascript
-categories: 读书笔记
+categories: javascript核心知识
 comment: true
 author: 阮一峰
 origin: 2

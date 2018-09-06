@@ -1,5 +1,5 @@
 ---
-title: RxJS系列教程(二) 什么是RxJS？
+title: RxJS系列教程-什么是RxJS？
 date: 2017-10-24 17:34:57
 tags: [javascript,rxjs]
 categories: [rxjs系列]

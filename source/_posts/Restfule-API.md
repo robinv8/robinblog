@@ -4,7 +4,7 @@ date: 2017-09-24 10:02:54
 tags: [restful,api]
 comment: true
 author: 阮一峰
-categories: 开发规范
+categories: 随记
 origin: 2
 thumbnail: http://cdn.rnode.me/images/20170924/img1.png
 ---

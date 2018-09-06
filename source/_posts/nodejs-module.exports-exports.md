@@ -2,7 +2,7 @@
 title: Node.js module.exports与exports
 date: 2018-01-02 10:07:57
 tags: javascript
-categories: 读书笔记
+categories: 随记
 comment: true
 author: chemdemo
 origin: 2

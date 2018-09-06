@@ -2,7 +2,7 @@
 title: git 使用规范流程
 date: 2017-12-26 10:55:44
 tags: git
-categories: 开发规范
+categories: 随记
 comment: true
 author: 阮一峰
 origin: 2

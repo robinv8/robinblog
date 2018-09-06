@@ -1,5 +1,5 @@
 ---
-title: 深入理解JavaScript系列（4）：从原型到原型链
+title: 深入理解JavaScript系列—从原型到原型链
 date: 2018-03-06 14:41:44
 tags: javascript
 categories: javascript核心知识
@@ -10,7 +10,7 @@ origin: 2
 # 构造函数创建对象
 ```javascript
 function Person() {
-  
+
 }
 var person = new Person();
 person.name = 'Kevin';
@@ -50,7 +50,7 @@ console.log(person2.name);// Kevin
 为了证明这一点,我们可以在火狐或者谷歌中输入：
 ```javascript
 function Person() {
-  
+
 }
 var person = new Person();
 console.log(person.__proto__ === Person.prototype);// true

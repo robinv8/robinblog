@@ -1,7 +1,7 @@
 ---
 title: package.json中^符号的含义
 date: 2017-12-1 17:40:00
-categories: javascript
+categories: 随记
 comment: true
 origin: 1
 ---

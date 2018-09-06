@@ -2,7 +2,7 @@
 title: javascript实用技巧和写法建议
 date: 2017-09-06 11:58:57
 tags: javascript
-categories: 读书笔记
+categories: 随记
 comment: true
 author: 守候
 origin: 2

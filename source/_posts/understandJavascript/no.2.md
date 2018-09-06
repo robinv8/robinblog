@@ -1,5 +1,5 @@
 ---
-title: 深入理解JavaScript系列（2）：全面解析Module模式
+title: 深入理解JavaScript系列—全面解析Module模式
 date: 2018-01-22 16:11:44
 tags: javascript
 categories: javascript核心知识

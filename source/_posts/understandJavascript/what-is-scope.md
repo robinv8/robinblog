@@ -1,5 +1,5 @@
 ---
-title: 什么是作用域
+title: 深入理解JavaScript系列—什么是作用域
 date: 2017-09-22 14:19:44
 tags: javascript
 categories: javascript核心知识

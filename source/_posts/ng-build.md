@@ -1,7 +1,7 @@
 ---
 title: angular4运行 ng build -pord 出错
 date: 2017-11-21 10:12:00
-categories: javascript
+categories: 随记
 comment: true
 author: 秋风8
 origin: 2

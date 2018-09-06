@@ -2,7 +2,7 @@
 title: 不可思议的BUG
 date: 2018-05-03 20:16:44
 tags: [debug,devtools,前端]
-categories: [bug调试]
+categories: [随记]
 comment: true
 origin: 1
 ---

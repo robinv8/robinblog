@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "深入理解JavaScript系列（3）：constructor、prototype、_proto_ 详解"
+title: "深入理解JavaScript系列—constructor、prototype、_proto_ 详解"
 date: "2018-03-05 14:41:44"
 tag: javascript
 categories: javascript核心知识

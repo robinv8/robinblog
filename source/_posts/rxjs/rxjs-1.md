@@ -1,5 +1,5 @@
 ---
-title: RxJS系列教程(一) 你应该知道的一些知识
+title: RxJS系列-你应该知道的一些知识
 date: 2017-10-24 17:29:57
 tags: [javascript,rxjs]
 categories: [rxjs系列]

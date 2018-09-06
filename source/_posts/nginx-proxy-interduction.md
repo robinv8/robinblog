@@ -2,7 +2,7 @@
 title: nginx-proxy使用说明
 date: 2017-12-25 23:11:44
 tags: nginx
-categories: 读书笔记
+categories: 随记
 comment: true
 origin: 1
 ---
