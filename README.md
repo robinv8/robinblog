@@ -45,5 +45,6 @@
 * Linux
     * [Ubuntu 16.04 LTS快速更新阿里源](https://github.com/robinv8/robinblog/blob/master/source/_posts/replace-the-ubuntu-source.md)
 * 生活感悟
-    * [新起点-2017](https://github.com/robinv8/robinblog/blob/master/source/_posts/newstart/starting-1.md)
     * [新起点-2018](https://github.com/robinv8/robinblog/blob/master/source/_posts/newstart/starting-2.md)
+    * [新起点-2017](https://github.com/robinv8/robinblog/blob/master/source/_posts/newstart/starting-1.md)
+
