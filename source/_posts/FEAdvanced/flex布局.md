@@ -6,6 +6,7 @@ categories: [前端进阶系列]
 comment: true
 origin: 2
 ---
+>以下内容主要摘抄自阮一峰老师的博客[http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ## 背景
 
@@ -196,5 +197,3 @@ flex-flow: <‘flex-direction’> || <‘flex-wrap’>
 }
 ```
 该属性可能取6个值，除了auto，其他都与align-items属性完全一致。
-
-以上内容主要摘抄阮一峰写的[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)

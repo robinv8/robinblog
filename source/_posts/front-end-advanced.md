@@ -13,7 +13,7 @@ origin: 1
 3. [HTML5新特性][3]
 4. [CSS3新特性](4)
 5. [flex布局](5)
-6. 盒模型
+6. [盒模型](6)
 
 ## JS篇
 1. 执行上下文（this和闭包）
@@ -89,3 +89,4 @@ origin: 1
 [3]: /FEAdvanced/HTML5%E6%96%B0%E7%89%B9%E6%96%B0/
 [4]: /FEAdvanced/css3%E6%96%B0%E7%89%B9%E6%96%B0/
 [5]: /FEAdvanced/flex%E5%B8%83%E5%B1%80/
+[5]: /FEAdvanced/%E7%9B%92%E6%A8%A1%E5%9E%8B/
