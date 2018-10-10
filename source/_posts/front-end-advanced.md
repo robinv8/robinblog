@@ -17,7 +17,7 @@ origin: 1
 
 ## JS篇
 1. [什么是执行上下文](7)
-2. 执行机制
+2. [JS执行机制](8)
 3. 事件模型
 4. 任务队列
 5. 原型、面向对象
@@ -92,3 +92,4 @@ origin: 1
 [5]: /FEAdvanced/flex%E5%B8%83%E5%B1%80/
 [6]: /FEAdvanced/%E7%9B%92%E6%A8%A1%E5%9E%8B/
 [7]: /FEAdvanced/js%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87/
+[8]:/FEAdvanced/JS%E6%89%A7%E8%A1%8C%E6%9C%BA%E5%88%B6/
