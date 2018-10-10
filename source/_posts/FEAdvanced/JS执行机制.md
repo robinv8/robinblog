@@ -7,7 +7,7 @@ comment: true
 origin: 1
 ---
 
-一直以来，对JS的执行机制都是模棱两可，知道今天看了文章—[《这一次，彻底弄懂JavaScript执行机制》]和[《Event Loop的规范和实现》](https://juejin.im/post/5a6155126fb9a01cb64edb45)(https://juejin.im/post/59e85eebf265da430d571f89)，才对JS的执行机制有了深入的理解，下面是我的学习总结。
+一直以来，对JS的执行机制都是模棱两可，知道今天看了文章—[《这一次，彻底弄懂JavaScript执行机制》](https://juejin.im/post/59e85eebf265da430d571f89)和[《Event Loop的规范和实现》](https://juejin.im/post/5a6155126fb9a01cb64edb45)，才对JS的执行机制有了深入的理解，下面是我的学习总结。
 
 ## 2个要点
 
