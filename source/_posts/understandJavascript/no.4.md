@@ -7,7 +7,34 @@ comment: true
 author: 冴羽
 origin: 2
 ---
-# 构造函数创建对象
+本文主要摘抄自冴羽大佬的blog。
+
+```
+原文作者：冴羽
+原文地址：https://github.com/mqyqingfeng/Blog/issues/2
+```
+
+学过Java的同学应该知道，有类继承的概念，对于JavaScript这种动态语言来说，不通过类继承的功能，即便在ES6里面引入了class关键字，也只是语法糖，基本值还是基于原型prototype实现的。
+
+先介绍几个概念：
+## 什么是对象
+
+若干属性的集合
+
+## 什么是构造函数
+在JavaScript中，用new关键字来调用定义的构造函数。默认返回的是一个新对象，这个新对象具有构造函数定义的变量和函数/方法。
+
+## 什么是原型
+
+原型是一个对象，其他对象可以通过它实现继承
+
+## 哪些对象有原型
+
+所有的对象在默认情况下都有一个原型，因为原型本身也是对象，所以每个原型自身又有一个原型(只有一个例外，默认的对象原型在原型链的顶端)
+
+下面介绍如何通过构造函数创建一个对象。
+
+## 构造函数创建对象
 ```javascript
 function Person() {
 
@@ -18,6 +45,7 @@ console.log(person.name);// Kevin
 ```
 在这个例子中，Person就是一个构造函数，我们使用new创建一个实例对象person。
 很简单吧，接下来进入正题：
+
 ## prototype
 每个函数都有一个prototype属性，就是我们经常在各种例子中看到的那个prototype,比如：
 
@@ -33,14 +61,10 @@ var person2 = new Person();
 console.log(person1.name);// Kevin
 console.log(person2.name);// Kevin
 ```
-那这个函数的prototype属性到底指向的是什么呢？是这个函数的原型吗？
-其实，函数的prototype属性指向了一个对象，这个对象正是调用该构造函数和创建的实例的原型，也就是这个例子中的person1和person2的原型。
-
-那什么是原型呢？你可以这样理解：每一个JavaScript对象（null除外）在创建的时候会与之关联另一个对象，这个对象就是我们所说的原型，每一个对象都会从原型“继承”属性。
 让我们用一张图表示构造函数和实例原型之间的关系：
 ![](http://cdn.rnode.me/images/20180306/prototype1.png)
 
-在这张图中我们用Object.prototype表示实例原型。
+在这张图中我们用Person.prototype表示实例原型。
 那么我们该怎么表示实例与实例原型，也就是person和Person.prototype之间的关系呢，这时候就要讲到第二个属性：
 
 ##  __ proto __
@@ -61,7 +85,7 @@ console.log(person.__proto__ === Person.prototype);// true
 既然实例对象和构造函数都可以指定原型，那么原型是否有属性指向构造函数或者实例呢？
 
 ## constructor
-指向实例到没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数倒是有的，这就要降到第三个属性：constructor,每个原型都有一个constructor属性指向关联的构造函数。
+指向实例倒没有，因为一个构造函数可以生成多个实例，但是原型指向构造函数倒是有的，这就要降到第三个属性：constructor,每个原型都有一个constructor属性指向关联的构造函数。
 
 为了验证这一点，我们可以尝试：
 ```javascript
@@ -86,7 +110,7 @@ console.log(Person.prototype.constructor == Person) // true
 // 顺便学习一个ES5的方法,可以获得对象的原型
 console.log(Object.getPrototypeOf(person) === Person.prototype) // true
 ```
-了解了构造函数、实例原型、和实例之间的关系：
+了解了构造函数、实例原型、和实例之间的关系，接下来我们讲讲实例和原型的关系：
 # 实例与原型
 
 当读取实例的属性时，如果找不到，就会找到与对象关联的原型中的属性，如果还查不到，就去找原型的原型，一直找到最顶层位置。
@@ -173,10 +197,8 @@ person.constructor === Person.prototype.constructor
 
 其次是 __proto__ ，绝大部分浏览器都支持这个非标准的方法访问原型，然而它并不存在于 Person.prototype 中，实际上，它是来自于 Object.prototype ，与其说是一个属性，不如说是一个 getter/setter，当使用 obj.__proto__ 时，可以理解成返回了 Object.getPrototypeOf(obj)。
 
-真的是继承吗？
+### 真的是继承吗？
 
 最后是关于继承，前面我们讲到“每一个对象都会从原型‘继承’属性”，实际上，继承是一个十分具有迷惑性的说法，引用《你不知道的JavaScript》中的话，就是：
 
 继承意味着复制操作，然而 JavaScript 默认并不会复制对象的属性，相反，JavaScript 只是在两个对象之间创建一个关联，这样，一个对象就可以通过委托访问另一个对象的属性和函数，所以与其叫继承，委托的说法反而更准确些。
-
-转载地址：[https://github.com/mqyqingfeng/Blog/issues/2](https://github.com/mqyqingfeng/Blog/issues/2)
