@@ -200,7 +200,7 @@ const HOC = (WrappedComponent) => {
 操作 state,我理解，但操作 props，什么鬼，直到看到这样一段代码：
 
 ```
-//改例子来源于 React 高阶组件(HOC)入门指南 掘金
+//该例子来源于 React 高阶组件(HOC)入门指南 掘金
 const HOCFactoryFactory = (...params) => {
     // 可以做一些改变 params 的事
     return (WrappedComponent) => {
@@ -250,7 +250,7 @@ class WrappedComponent extends Component{
 export default HOC(WrappedComponent)
 ```
 
-更操作 DOM 差不多（个人理解），目前没有用到这个的场景，不做赘述。
+跟操作 DOM 差不多（个人理解），目前没有用到这个的场景，不做赘述。
 
 高阶组件基本使用场景介绍完了，回到正题，聊聊，我在实际项目中是怎么用的。
 
