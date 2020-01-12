@@ -7,7 +7,7 @@ categories: react
 
 # React Hooks 学习笔记
 
-看了一篇文章，也说请了 React 发展历程，我一直都坚信任何技术方案的出现都是为了以更好的方式解决问题。
+看了一篇文章，也说清了 React 发展历程，我一直都坚信任何技术方案的出现都是为了以更好的方式解决问题。
 
 ## React 组件发展历程
 
@@ -78,7 +78,7 @@ const Button = props => {
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwly1gau6hqd4rbj309008ot8l.jpg)
 
-想这种复合型组件就需要状态的介入，但是有犯不着使用类组件，因此诞生了 React Hooks
+想这种复合型组件就需要状态的介入，但是又犯不着使用类组件，因此诞生了 React Hooks
 
 ## React Hooks 介绍
 
