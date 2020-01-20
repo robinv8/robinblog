@@ -3,7 +3,7 @@
  * @Date: 2020-01-19 09:59:18
  * @Author:
  * @LastEditors  : robin
- * @LastEditTime : 2020-01-20 23:33:01
+ * @LastEditTime : 2020-01-20 23:36:14
  -->
 
 ---
@@ -130,7 +130,11 @@ static getDerivedStateFromProps(nextProps, prevState)
 参考文章：
 
 [React Fiber 是什么](https://zhuanlan.zhihu.com/p/26027085)
+
 [React v16.3 之后的组件生命周期函数](https://zhuanlan.zhihu.com/p/38030418)
+
 [浅谈 React Fiber 及其对 lifecycles 造成的影响](https://blog.techbridge.cc/2018/03/31/react-fiber-and-lifecycle-change/)
+
 [讲讲今后 React 异步渲染带来的生命周期变化](https://juejin.im/post/5abf4a09f265da237719899d)
+
 [React 新旧生命周期的思考理解](https://zhuanlan.zhihu.com/p/65124686)
