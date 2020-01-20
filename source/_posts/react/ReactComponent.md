@@ -1,18 +1,8 @@
-<!--
- * @Description:
- * @Date: 2020-01-19 09:59:18
- * @Author:
- * @LastEditors  : robin
- * @LastEditTime : 2020-01-20 23:36:14
- -->
-
 ---
-
 title: React 生命周期的打怪升级之路
 date: 2020-01-20 23:48:00
 origin: 1
 categories: react
-
 ---
 
 # React 生命周期的打怪升级之路
