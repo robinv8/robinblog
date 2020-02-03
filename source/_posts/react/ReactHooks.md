@@ -74,7 +74,7 @@ const Button = props => {
 
 我只是要封装个公共组件，用它就够。
 
-夜黑风熬夜，组件开发时……
+夜黑风高夜，组件开发时……
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwly1gau6hqd4rbj309008ot8l.jpg)
 
@@ -208,7 +208,7 @@ function Example() {
 
 ## 总结
 
-刚开始在项目中使用，还未能深入使用，只能列举目前能用到的示例代码，自定义 Hooks,在我看来是对 Hooks 的重构升级。
+刚开始在项目中使用，还未能深入使用，只能列举目前能用到的示例代码，自定义 Hooks,在我看来是对 Hooks 的组合封装。
 
 参考文章：
 
