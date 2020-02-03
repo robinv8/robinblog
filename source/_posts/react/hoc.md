@@ -68,11 +68,11 @@ const HOC = (WrappedComponent) => {
 }
 ```
 
-what? 属性代理、反向继承，继承就算了，怎么还反向继承，别急放下看
+what? 属性代理、反向继承，继承就算了，怎么还反向继承，别急往下看
 
 ### 属性代理
 
-简单讲就是包裹组件，操作 props，基本上组件嵌套、传参什么的都干过。
+简单讲就是包裹组件，操作 props，基本上这种组件嵌套的模式以及传参方式经常用到。
 
 上代码
 
@@ -179,7 +179,7 @@ export default HOC(WrappedComponent)
 
 ### 反向继承
 
-再看看上面的示例
+再看下面的示例
 
 ```
 const HOC = (WrappedComponent) => {
@@ -197,7 +197,7 @@ const HOC = (WrappedComponent) => {
 
 #### 操作 state 以及 props。
 
-操作 state,我理解，但操作 props，什么鬼，直到看到这样一段代码：
+操作 state我理解，但操作 props，什么鬼，直到看到这样一段代码：
 
 ```
 //该例子来源于 React 高阶组件(HOC)入门指南 掘金
@@ -270,7 +270,7 @@ export default HOC(WrappedComponent)
 
 我采用了反向继承的方案，属性代理，只能满足操作 props，但不能操作 state,大家或许会有疑问，人家不是可以抽象 state，是的，瞅清楚，是抽象不是操作。
 
-还有就是没办法属性代理没办法使用原组件静态方法。大神提供了批量复制静态方法的库`hoist-non-react-statics`
+还有就是属性代理没办法使用原组件静态方法。大神提供了批量复制静态方法的库`hoist-non-react-statics`
 
 最终满足我操作 props，尤其是操作 state 的可行性方案，就是高阶组件的反向继承。
 
