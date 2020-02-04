@@ -69,7 +69,7 @@ v16.3 版本之前， React 中的更新操作是同步的，这可能会导致�
 
 ### constructor 构造函数
 
-执行的生命周期方法，如果需要做一些初始化操作，比如初始化 state, 反正则无需为 React 组件实现构造函数。
+执行的生命周期方法，如果需要做一些初始化操作，比如初始化 state, 反之则无需为 React 组件实现构造函数。
 
 ### getDerivedStateFromProps
 
@@ -79,11 +79,11 @@ v16.3 版本之前， React 中的更新操作是同步的，这可能会导致�
 static getDerivedStateFromProps(nextProps, prevState)
 ```
 
-其中 v16.3 版本中 re-rendering 之后此方法不会被调用，而 v16.4 版本中 re-rendering 之后都会调用此方法，这意味及时的 props 未发生改变，一旦父组件发生 re-rendering 那么子组件的该方法依然会被调用。
+其中 v16.3 版本中 re-rendering 之后此方法不会被调用，而 v16.4 版本中 re-rendering 之后都会调用此方法，这意味即使 props 未发生改变，一旦父组件发生 re-rendering 那么子组件的该方法依然会被调用。
 
 ### componentWillMount/UNSAVE_componentWillMount (即将废弃)
 
-部分同学日常会把数据请求放在该方法内，以便于快速获取数据并展现，我的理解再怎么快，也快不过首次 render，并且 React Fiber 执行机制的原因，会导致该方法被执行多次，这也意味着接口被请求多次。因此该方法在 v17 版本以后将被彻底废弃。
+部分同学日常会把数据请求放在该方法内，以便于快速获取数据并展现，但事实上，请求再快再怎么快，也快不过首次 render，并且 React Fiber 执行机制的原因，会导致该方法被执行多次，这也意味着接口被请求多次。因此该方法在 v17 版本以后将被彻底废弃。
 
 ### componentDidMount
 
@@ -99,11 +99,11 @@ static getDerivedStateFromProps(nextProps, prevState)
 
 ### componentWillUpdate
 
-依旧是 React Fiber 执行机制的原因，在该方法记录 DOM 状态就不在准确了。
+依旧是 React Fiber 执行机制的原因，在该方法记录 DOM 状态就不再准确了。
 
 ### getSnapshotBeforeUpdate
 
-触发该方法的实际，是在更新 DOM 之前的一瞬间，比 componentWillUpdate 记录的 DOM 状态更为精确。
+触发该方法的时机，是在更新 DOM 之前的一瞬间，比 componentWillUpdate 记录的 DOM 状态更为精确。
 
 ### componentDidUpdate
 
