@@ -5,8 +5,6 @@ origin: 1
 categories: react
 ---
 
-# React Hooks 学习笔记
-
 看了一篇文章，也说清了 React 发展历程，我一直都坚信任何技术方案的出现都是为了以更好的方式解决问题。
 
 ## React 组件发展历程
@@ -28,12 +26,12 @@ const Index = React.createClass({
   },
   getInitialState() {
     return {
-      name: "robin"
+      name: "robin",
     };
   },
   render() {
     return <div></div>;
-  }
+  },
 });
 ```
 
@@ -48,7 +46,7 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "robin"
+      name: "robin",
     };
   }
 
@@ -67,7 +65,7 @@ class Index extends React.Component {
 示例：
 
 ```javascript
-const Button = props => {
+const Button = (props) => {
   return <div></div>;
 };
 ```
@@ -97,7 +95,7 @@ import React, { useState } from "react";
 export default function TextInput() {
   const [name, setName] = useState("");
 
-  return <input value={name} onChange={e => setName(e.target.value)} />;
+  return <input value={name} onChange={(e) => setName(e.target.value)} />;
 }
 ```
 
@@ -129,7 +127,7 @@ const Button3 = () => {
     <AppContext.Provider
       value={{
         name: name,
-        age: 29
+        age: 29,
       }}
     >
       <Button1 />
@@ -158,7 +156,7 @@ const myReducer = (state, action) => {
     case "countUp":
       return {
         ...state,
-        count: state.count + 1
+        count: state.count + 1,
       };
     default:
       return state;
