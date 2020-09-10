@@ -1,37 +1,24 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site
 title: 技术修行
-subtitle: http://rnode.me
-description:
+subtitle: "http://rnode.me"
+description: null
 author: 任裕斌 | robin
 language: zh-CN
 timezone: Asia/Shanghai
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://robin.me
+url: "http://robin.me"
 root: /
-permalink: :title/
-permalink_defaults:
-
-# Directory
+permalink: ":title/"
+permalink_defaults: null
 source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
-# Writing
-new_post_name: :title.md # File name of new posts
+i18n_dir: ":lang"
+skip_render: null
+new_post_name: ":title.md"
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -41,49 +28,31 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
-  
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
+  tab_replace: null
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
-  order_by: -date
-  
-# Category & Tag
+  order_by: "-date"
 default_category: uncategorized
-category_map:
-tag_map:
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+category_map: null
+tag_map: null
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-# Pagination
-## Set per_page to 0 to disable pagination
+time_format: "HH:mm:ss"
 per_page: 10
 pagination_dir: page
 admin:
   username: robin
   password_hash: $2a$10$dXHJlizDz5F/7q8F06anf.TyCAyGVvpCUuBkYNSD.Yn2apPyChad2
   secret: RYB520zh19930627
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: icarus
-
-# add post views
 leancloud_visitors:
   enable: true
   app_id: u2gJTcuqavSwCdEsRwQE0tjd-gzGzoHsz
-  app_key: sVNL8thqtOPCvv0nNxUrFvX6,
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
+  app_key: "sVNL8thqtOPCvv0nNxUrFvX6,"
 deploy:
-  type:
+  type: null
+excerpt:
+  depth: 6
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
