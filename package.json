@@ -23,7 +23,7 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-inferno": "^0.1.3",
     "hexo-renderer-marked": "^0.3.0",
-    "hexo-renderer-stylus": "^1.1.0",
+    "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^0.2.0",
     "hexo-tag-aplayer": "^2.0.7",
     "hexo-tag-dplayer": "^0.3.1",
