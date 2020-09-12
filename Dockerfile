@@ -1,7 +1,7 @@
 ### STAGE 1: Build ###
 
 # We label our stage as 'builder'
-FROM node:latest as builder
+FROM daocloud.io/node:12.18 as builder
 WORKDIR /app
 RUN npm config set user 0
 RUN npm config set unsafe-perm true
